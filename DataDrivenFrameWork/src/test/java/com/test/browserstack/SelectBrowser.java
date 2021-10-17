@@ -11,7 +11,7 @@ public class SelectBrowser {
 	
 	static WebDriver driver;
 	
-	
+	//adding browser
 	public static WebDriver browser(String browerName) {
 		if(browerName.contains("chrome")) {
 			WebDriverManager.chromedriver().setup();
